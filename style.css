@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+}
+
+.container .section{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    scroll-snap-align: start;
+    background-blend-mode: multiply;
+}
+
+.container .section:nth-child(5){
+    background: url('https://images.pexels.com/photos/1533720/pexels-photo-1533720.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')center center/cover;
+    background-attachment: fixed;
+}
+
+.container .section:nth-child(2){
+    background: url('https://images.pexels.com/photos/2258536/pexels-photo-2258536.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')center center/cover;
+    background-attachment: fixed;
+}
+
+.container .section:nth-child(3){
+    background: url('https://images.pexels.com/photos/358457/pexels-photo-358457.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')center center/cover;
+    background-attachment: fixed;
+}
+
+.container .section:nth-child(4){
+    background: url('https://images.pexels.com/photos/3509971/pexels-photo-3509971.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500')center center/cover;
+    background-attachment: fixed;
+}
+
+
+.container .section:nth-child(1){
+    background: url('https://images.pexels.com/photos/839462/pexels-photo-839462.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')center center/cover;
+    background-attachment: fixed;
+}
+
+.container .section .content{
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    max-width: 700px;
+}
+
+.container .section .content h2{
+    background: #fff;
+    display: inline-block;
+    padding: 10px 20px;
+    font-weight: 600;
+    color: #111;
+}
+
+.container .section .content p{
+    background: #fff;
+    display: inline-block;
+    padding: 10px 20px;
+    font-weight: 300;
+    color: #111;
+    margin-top: 10px;
+    text-align: justify;
+}
